@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Futbol Argentino</title>
+    <link rel="icon" href="data:image/jpeg;base64,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">
+</head>
+<body>
+    
+<header id="titulo">
+   <div class="escudo">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <h1></h1><a class="navbar-brand" href="./index.html">Futbol Argentino</a></h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+</header>
+
+<main>
+
+
+
+
+
+
+
+
+
+
+
+<section class="home">
+
+   <div class="h2"><h2>Noticias</h2></div>
+    
+   <div class="in-flex"><article>
+        <span>Actualidad</span>
+        <img src="../proyecto-coder/img/River_Plate.png" alt="River">
+        <div class="in-flexdiv"><h3>River logro un empate y sigue puntero</h3>
+    <p>Los dirigidos por Martín Demichelis se mantienen en la cima con 34 unidades, a seis de distancia de San Lorenzo, su principal perseguidor. Por otro lado, el Decano escaló a la 22° ubicación con 14 puntos en misma cantidad de presentaciones.</p></div>
+    
+       
+        
+    </article></div>
+    <hr>
+    <div class="in-flex"><article>
+<span> Actualidad </span>
+<img src="../proyecto-coder/img/independiente.png" alt="independiente" class="Independiente">
+<div class="in-flexdiv"></div><h3>La recolecta de Independiente ya recaudo 500 millones </h3>
+<p>Continúa la colecta de Santiago Maratea para Independiente luego de que el jueves el influencer la anunciara en conferencia de prensa junto al ídolo del club Pepé Santoro. En el inicio la iniciativa fue todo un éxito y hasta este viernes ya se llevan recaudados 500 millones de pesos.</p></div>
+    </article></div>
+    <hr>
+<div class="in-flex"><article>
+<span>Actualidad</span>
+<img src="../proyecto-coder/img/afaescudo.png" alt="AFA">
+<div class="in-flexdiv"><h3>Se juega el mundial sub 20 en Argentina</h3>
+<p>El Mundial Sub 20 2023 se disputará en la Argentina. Luego de que la FIFA le quitase a Indonesia la posibilidad de albergar el torneo por motivos extra futbolísticos (el país asiático tenía que organizar la edición de 2021 que se canceló por la pandemia del Covid-19, por lo que automáticamente pasó a ser el elegido para hacer de local en este 2023), el presidente de la AFA, Claudio ‘Chiqui’ Tapia, propuso al país de los campeones del mundo para ser la nueva sede del torneo luego de que el equipo dirigido por Javier Mascherano no lograse clasificar por méritos futbolísticos en el Sudamericano. El ente regulador de fútbol a nivel internacional aceptó y le dio a la Argentina la chance de organizar su segundo certamen ecuménico de la categoría. Y lógicamente, ser uno de los protagonistas.
+ Inmediatamente después de aceptar la candidatura, una comitiva de la FIFA integrada por 12 especialistas desembarcó en el país para constatar las condiciones de hoteles, centros de entrenamiento y detalles de cada estadio. Analizaron cada lugar y sugirieron las reformas necesarias teniendo en cuenta que será un Mundial de emergencia, por lo que todo debe estar en condiciones en menos de un mes.</p></div>
+</article></div>
+<hr>
+
+
+
+
+    
+
+
+
+
+</section>
+
+<form class="fondo-gray" >
+    <div><label for="email">email</label></div>
+<div>
+    <input type="email">
+    <input type="submit">
+</div>
+<div><label for="mensaje">mensaje</label></div>
+<div>
+    <textarea  id="mensaje" cols="10" rows="5"></textarea>
+    <input type="submit">
+</div>
+
+
+
+
+</form>
+
+
+
+
+</main>
+
+
+
+
+
+
+
+       
+        
+    
+    
+</section>
+    
+    
+ 
+
+
+
+
+
+
+<footer class="footer">
+<h4>Futbol Argentino</h4>
+<ul>
+    <li>Noticias</li>
+    <li>Promedios y Tabla </li>
+    <li>Mejores Goles </li>
+    <li>Mejores Jugadores</li>
+ <li>Mejores Torneos</li>
+</ul>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
