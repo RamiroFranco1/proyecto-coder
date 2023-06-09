@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(../img/Escudo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 250vh;
+    background-size: cover;
+  }
+  
+  body {
+    display: grid;
+    grid-template-rows: 33% 33% 34%;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-areas: " header header header" "main main main " "footer footer footer";}

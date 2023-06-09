@@ -1,0 +1,57 @@
+body {
+    background-image: url(../img/Escudo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 250vh;
+    background-size: cover;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style: none;
+  }
+  h1 {
+    border-style: groove;
+    text-align: center;
+  }
+  h1 {
+    border-style: none;
+  }
+ 
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .in-flex {
+    flex: 1;
+    background-color: rgba(66, 64, 194, 0.1019607843);
+  }
+  
+  .in-flex {
+    padding: 25px;
+    background-color: rgba(66, 64, 194, 0.1019607843);
+    margin: 20;
+    margin-bottom: 0;
+  }
+  
+  .in-flex {
+    padding: 25px;
+    background-color: rgba(66, 64, 194, 0.1019607843);
+    margin: 20;
+  }
+  
+  .in-flexdiv {
+    padding: 25px;
+    margin: 20;
+  }
+  
