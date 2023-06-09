@@ -14,12 +14,7 @@ body {
   background-size: cover;
 }
 
-body {
-  display: grid;
-  grid-template-rows: 33% 33% 34%;
-  grid-template-columns: 33% 33% 34%;
-  grid-template-areas: " header header header" "main main main " "footer footer footer";
-}
+
 
 
 
@@ -33,10 +28,10 @@ background-color: rgba(255, 0, 0, 0.24);
   height: 50px;
   width: 50px;
 }
-main h1 {
+ h1 {
   background-color: adjust-color($color: #b30a0a27, $red: 1, $green: 2, $blue: 3, $hue: 0, $saturation: 0%, $lightness: 0%, $alpha: 1.0);
   border-style: groove;
   width: 35px;
   height: 35px;
-  margin-block-end: auto;
+  margin-bottom:  auto;
 }
