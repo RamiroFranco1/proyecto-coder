@@ -16,17 +16,8 @@ body {
     list-style-type: none;
     box-sizing: border-box;
   }
-  ul {
-    list-style: none;
-  }
-  h1 {
-    border-style: groove;
-    text-align: center;
-  }
-  h1 {
-    border-style: none;
-  }
- 
+/*responsive*/
+
   .home {
     display: flex;
     flex-wrap: wrap;
@@ -54,4 +45,5 @@ body {
     padding: 25px;
     margin: 20;
   }
+  
   

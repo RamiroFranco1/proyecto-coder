@@ -14,8 +14,46 @@
     background-size: cover;
   }
   
-  body {
-    display: grid;
-    grid-template-rows: 33% 33% 34%;
-    grid-template-columns: 33% 33% 34%;
-    grid-template-areas: " header header header" "main main main " "footer footer footer";}
+  .river2018 {
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+    
+    .item {
+      background-color: #ddd;
+      padding: 20px;
+    }
+}
+
+/*footer*/
+.pie{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  $color-principal:#f9000046;
+    list-style: none;
+    border: darkred 5px;
+    border-style: double;
+    width: 300px;
+    height: 300px;
+    margin: top 100%;;
+    margin-left: auto;
+    list-style: none ;  
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgb(249, 249, 252) 0%, rgba(249,0,0,0.6895133053221288) 38%, rgba(247,253,254,1) 100%);
+  }
+
+  /*texto*/
+ p{
+  font-size: 15px;
+  text-shadow: 10px 10px 5px rgba(255, 0, 0, 0.267), 5px 5px 10px white;
+  font-family: unset;
+} 
+
+/*Main*/
+.caja{
+  box-shadow: 41px 0px 21px -11px #f9000046;
+border-radius: 3%;
+}
